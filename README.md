@@ -1,25 +1,7 @@
 # TubeTrend-Pro-Predicting-YouTube-Video-Popularity
 
-**1.1 General Introduction**
 
-As one of the most widely used video-sharing platforms, YouTube has
-emerged as a brand-new career path in recent years. YouTubers can make
-money through selling items, receiving sponsorships from businesses,
-running advertisements on their videos, and receiving donations from
-their fans. The success of videos becomes the top concern for YouTubers
-in order to keep a steady income. Some of our friends, meanwhile, run
-YouTube channels or run other video-sharing websites. This increases our
-curiosity about projecting the video\'s performance. In order to get the
-greatest attention from the public, artists may modify their videos if
-they can make an early estimate about how well they would perform. The
-number of people who view a YouTuber\'s video the most worries them. As
-a result, based on the quantity of views, the videos can be divided into
-popular and unpopular categories.
-
-Feedback from viewers is also crucial for YouTubers because it shows the
-preferences of views.
-
-**1.2 Problem Statement**
+## What are we doing in the project??
 
 The objective of this project is to develop a machine learning model
 capable of predicting the expected number of views for a forthcoming
@@ -30,7 +12,7 @@ title, thumbnail and past performances of other videos of the same
 channel.
 
 
-**1.3 Brief Description of the Solution Approach**\
+## Brief Description of the Solution Approach
 For making this predictive model we are going to train 3 different
 machine learning models Since a viewer\'s decision to watch a video
 depends largely on the title and the thumbnail of the video therefore we
@@ -48,11 +30,8 @@ the number of views on the video that he is going to upload in the near
 future.
 
 
-
-
-
-**Summary**:\
-The thumbnail is the first thing that viewers see when they come across
+## Why we are doing what we are doing??
+1.The thumbnail is the first thing that viewers see when they come across
 a video on YouTube, and it can have a significant impact on whether they
 click on the video or not. A visually appealing and attention-grabbing
 thumbnail can increase the likelihood of a viewer clicking on the video
@@ -60,7 +39,7 @@ and watching it. Creators should aim to create thumbnails that
 accurately represent the content of the video while also being visually
 appealing and attention-grabbing.
 
-The title of a YouTube video is also crucial in determining its
+2.The title of a YouTube video is also crucial in determining its
 popularity. A clear and descriptive title that accurately reflects the
 content of the video can make it easier for viewers to find and watch
 the video. Additionally, creators can use clickbait titles to generate
@@ -69,23 +48,13 @@ of the video being clicked on and watched. However, it\'s important to
 ensure that the title accurately reflects the content of the video to
 avoid disappointing viewers and damaging the creator\'s reputation.
 
-The number of views is perhaps the most fundamental metric used to
-measure the popularity of a YouTube video. The more views a video has,
-the more popular it is considered to be. High view counts indicate that
-the video is engaging, informative, or entertaining and that it has
-resonated with a large audience.
+Since thumbnail and title of a video plays major role in getting views hence extra attention has been given to measure this factor.
 
-The number of likes is another important metric used to measure the
-popularity of a YouTube video. Likes indicate that viewers have enjoyed
-the video and found it valuable, entertaining, or informative. A higher
-number of likes can lead to higher rankings in YouTube\'s search results
-and recommended videos, which can increase the visibility and popularity
-of the video.
+3.Also the channels ability to garner views also depends upon the amount of reach the channel has . Which could be measured by subscribers count.
+But we observed that this may not be a very good parameter because some youtube channels get more views than their subscriber count while this may not be true for other youtube channels.
+Hence we took a youtube channels performances on its last videos as a measure of reach the channel has.
+And to do so we took performance of last 10 videos.
 
-
-**CHAPTER-3**
-
-**REQUIREMENT ANALYSIS & SOLUTION APPROACH**
 
 **3.1 Overall description of the project**
 
